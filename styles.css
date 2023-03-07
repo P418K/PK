@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+.Father{
+    background-color: black;
+    
+    min-height: 75vh;
+}
+.Mother{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    color: white;
+    
+}
+.child1{
+    color: red;
+}
+.child2{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 68px;
+    
+}
+.child2 li a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    
+}
+.child3 a{
+    color: white;
+    text-decoration: none;
+    margin-right: 18px;
+    font-size: 25px;
+    
+    
+
+    
+}
+.firstbutton{
+    width: 80px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: red;
+}
